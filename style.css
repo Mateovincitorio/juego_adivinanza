@@ -1,6 +1,12 @@
 body {
     text-align: center;
   }
+
+  p{
+    font-size: large;
+    color: #333;
+    font-family: Arial, sans-serif;
+  }
   
   h1 {
     color: #333;
@@ -31,3 +37,21 @@ body {
     margin-top: 20px;
   }
   
+  #ultimoIntento{
+    color: #333;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    margin-top: 20px;
+    animation: animacion 1.5s ease-in-out  infinite alternate;
+  }
+  @keyframes animacion {
+    to{
+      font-size: 30px;
+      color: #e41313;
+    }
+    from{
+      font-size: 18px;
+      color: #333;
+    }
+      
+  }

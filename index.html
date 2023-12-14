@@ -12,9 +12,11 @@
 <body>
     <h1>Adivina el número</h1>
     <p>Introduce un número entre 1 y 100:</p>
-    <input type="number" id="numeroEntrada">
-    <button onclick="chequearResultado()">Comprobar</button>
+    <input type="number" id="numeroEntrada" onclick="vaciar()">
+    <button id="boton" onclick="chequearResultado()">Comprobar</button>
     <p id="mensaje"></p>
+    <p id="intentosProbados"></p>
+    <p id="ultimoIntento"></p>
 
     <script src="script.js"></script>
 </body>
